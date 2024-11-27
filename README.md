@@ -2,50 +2,49 @@
 
 A modern, interactive workflow editor built with React and TypeScript that allows users to create and manipulate visual workflows with different types of blocks and connections.
 
+🚀 [Live Demo](https://resilient-kringle-2f4085.netlify.app/) | [Edit in StackBlitz ⚡️](https://stackblitz.com/~/github.com/ale-fra/n8n-suggestion-connection-joint)
+
 ## Features
 
+### Block Management
 - **Interactive Block Types**:
   - Trigger blocks to start workflows
   - Command blocks for execution steps
   - Conditional (IF) blocks with true/false branches
   
-- **Dynamic Connections**:
-  - Drag-and-drop connection points
-  - Smart path routing to avoid block overlaps
-  - Perpendicular connections to blocks
-  - Automatic path recalculation
-  
-- **Flexible Block Management**:
-  - Drag blocks to reposition
-  - Maintain connection integrity during movement
+- **Flexible Block Manipulation**:
+  - Intuitive drag-and-drop interface
+  - Real-time position updates
   - Visual feedback during interactions
   
-- **Smart Joint System**:
-  - Joints snap to block perimeters
-  - Relative positioning preserved during block movement
+- **Smart Connection System**:
+  - Dynamic connection points with drag-and-drop functionality
+  - Intelligent path routing to avoid overlaps
+  - Perpendicular block connections
+  - Automatic path recalculation
   - True/false labels for conditional paths
 
-## Technical Features
-
-- **Modern React Patterns**:
+### Technical Highlights
+- **Modern React Implementation**:
   - Custom hooks for joint management
   - Component composition
-  - TypeScript for type safety
+  - TypeScript for enhanced type safety
   
-- **Advanced SVG Graphics**:
-  - Bezier curves for connections
+- **Advanced Graphics**:
+  - SVG-based rendering
+  - Bezier curves for smooth connections
   - Dynamic path calculation
-  - Smooth animations
+  - Fluid animations
   
 - **Responsive Design**:
-  - Tailwind CSS for styling
-  - Fluid animations
+  - Mobile-friendly interface
+  - Tailwind CSS for modern styling
   - Cross-browser compatibility
+  - Smooth animations
 
 ## Getting Started
 
 ### Prerequisites
-
 - Node.js (v16 or higher)
 - npm or yarn
 
@@ -66,7 +65,7 @@ A modern, interactive workflow editor built with React and TypeScript that allow
    npm run dev
    ```
 
-## Project Structure
+## Project Architecture
 
 ```plaintext
 src/
@@ -87,32 +86,37 @@ src/
     └── workflow.ts         # TypeScript interfaces
 ```
 
-## Usage
+## Usage Guide
 
-### Creating Blocks
+### Working with Blocks
 
-The editor supports three types of blocks:
-
-1. **Trigger Blocks**: Entry points for workflows
+The editor supports three primary block types:
+1. **Trigger Blocks**: Workflow entry points
 2. **Command Blocks**: Execution steps
-3. **IF Blocks**: Conditional branching with true/false outputs
+3. **IF Blocks**: Conditional branching with true/false paths
 
-### Connecting Blocks
+### Creating Connections
 
-1. Click and drag connection points to create links
-2. Joints automatically snap to block perimeters
-3. Connections maintain perpendicular angles for clean layouts
-4. Paths automatically route around other blocks
+1. Click and drag from any connection point to create links
+2. Joints automatically snap to optimal positions on block perimeters
+3. Connections maintain clean, perpendicular angles
+4. Smart pathfinding avoids obstacles and other blocks
 
-### Moving Blocks
+### Block Manipulation
 
-- Click and drag blocks to reposition
-- Connections update automatically
-- Joint positions are preserved relative to their blocks
+- Drag blocks freely to reposition them
+- Connections update in real-time
+- Joint positions maintain their relative alignment
+- Visual feedback during drag operations
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Please follow these steps:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
 
 ## License
 
@@ -120,8 +124,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built with [React](https://reactjs.org/)
-- Styled with [Tailwind CSS](https://tailwindcss.com/)
-- Icons from [Lucide React](https://lucide.dev/)
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ale-fra/n8n-suggestion-connection-joint)
+Built with:
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
